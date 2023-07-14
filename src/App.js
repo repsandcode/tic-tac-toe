@@ -98,7 +98,7 @@ function App() {
 
   return (
     <div className="App">
-      <Scoreboard scores={scores} xPlaying={xPlaying}></Scoreboard>
+      <Scoreboard scores={scores} xPlaying={xPlaying} playAgain={playAgain}></Scoreboard>
       <Board board={board} onClick={handleBoxClick}></Board>
       <PlayAgainButton newRound={newRound}></PlayAgainButton>
     </div>

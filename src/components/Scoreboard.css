@@ -21,18 +21,19 @@
 }
 
 .x-score {
-  color: rgb(255, 70, 37);
-  border-bottom: 5px solid rgb(255,70,37);
+  color: rgb(255, 94, 66);
+  border-bottom: 5px solid rgb(255, 94, 66);
   border-radius: 0.5rem 0 0 0.5rem;
 }
 
 .draw {
-  border-bottom: 5px solid rgb(44, 44, 44);
+  color: rgb(100, 100, 100);
+  /* border-bottom: 5px solid rgb(100, 100, 100); */
 }
 
 .o-score {
-  color: rgb(44, 135, 255);
-  border-bottom: 5px solid rgb(44, 135, 255);
+  color: rgb(77, 154, 255);
+  border-bottom: 5px solid rgb(77, 154, 255);
   border-radius: 0 0.5rem 0.5rem 0;
 } 
 
